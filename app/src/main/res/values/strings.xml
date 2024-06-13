@@ -6,7 +6,10 @@
     <string name="p1_btn_2">Hitung kebutuhan kalori harian</string>
     <string name="p1_btn_3">Hitung kalori yang terbakar</string>
     <string name="p1_btn_4">Kalkulator BMI</string>
-
+    <string name="CheckCal_head">Upload atau foto makanan yang ingin di cek</string>
+    <string name="checkCal_btn_kamera">Camera</string>
+    <string name="checkCal_btn_gallery">Gallery</string>
+    <string name="checkCal_btn_check">Check Calorie</string>
 
 
 </resources>
