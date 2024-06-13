@@ -15,4 +15,8 @@
         android:name="com.example.fitcal.MainActivity"
         android:label="activity_main"
         tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/checkCalorieActivity2"
+        android:name="com.example.fitcal.CheckCalorieActivity"
+        android:label="CheckCalorieActivity" />
 </navigation>
