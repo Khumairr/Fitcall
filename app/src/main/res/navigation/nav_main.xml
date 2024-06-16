@@ -12,11 +12,16 @@
         tools:layout="@layout/activity_intro" />
     <activity
         android:id="@+id/mainActivity"
-        android:name="com.example.fitcal.MainActivity"
+        android:name="com.example.fitcal.ui.menu.MainActivity"
         android:label="activity_main"
         tools:layout="@layout/activity_main" />
     <activity
         android:id="@+id/checkCalorieActivity2"
-        android:name="com.example.fitcal.CheckCalorieActivity"
+        android:name="com.example.fitcal.ui.checkcalori.CheckCalorieActivity"
         android:label="CheckCalorieActivity" />
+    <activity
+        android:id="@+id/bmiActivity"
+        android:name="com.example.fitcal.ui.bmi.BmiActivity"
+        android:label="activity_bmi"
+        tools:layout="@layout/activity_bmi" />
 </navigation>

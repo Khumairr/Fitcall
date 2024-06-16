@@ -6,10 +6,28 @@
     <string name="p1_btn_2">Hitung kebutuhan kalori harian</string>
     <string name="p1_btn_3">Hitung kalori yang terbakar</string>
     <string name="p1_btn_4">Kalkulator BMI</string>
+    <string name="BMI_menu">Kalkulator BMI</string>
     <string name="CheckCal_head">Upload atau foto makanan yang ingin di cek</string>
+    <string name="BMICheck_head">BMI adalah indikator pengukuran yang digunakan untuk menentukan kategori berat badan ideal atau tidak. Melalui hasil perhitungan BMI, Anda akan mengetahui kategori berat badan, yaitu kurus, ideal, berlebihan, atau bahkan obesitas.S</string>
     <string name="checkCal_btn_kamera">Camera</string>
     <string name="checkCal_btn_gallery">Gallery</string>
     <string name="checkCal_btn_check">Check Calorie</string>
+    <string name="btn_hitung">Hitung</string>
+    <string name="weight_edit_text">Masukan Berat</string>
+    <string name="height_edit_text">Masukan Tinggi</string>
+    <string name="kg">Kg</string>
+    <string name="cm">Cm</string>
+    <string name="invalid_input">Invalid input. Please enter valid numbers.</string>
+    <string name="result_header">Kadar BMI Anda</string>
+    <string name="bmi_result">%.2f</string>
+    <string name="underweight">Kurus, kekurangan berat badan</string>
+    <string name="normal_weight">Normal weight</string>
+    <string name="overweight">Overweight</string>
+    <string name="obesity">Obesity</string>
+    <string name="advice_underweight">Kadar BMI Anda %.2f, menunjukan berat badan Anda dalam kategori Kurus, kekurangan berat badan untuk orang dewasa dengan tinggi badan Anda/n Menjaga berat badan yang sehat dapat mengurangi risiko penyakit kronis yang terkait dengan kelebihan berat badan dan obesitas</string>
+    <string name="advice_normal">Pertahankan berat badan</string>
+    <string name="advice_overweight">Perlu olahraga</string>
+    <string name="advice_obesity">Perlu olahraga</string>
 
 
 </resources>

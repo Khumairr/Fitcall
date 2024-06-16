@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/introActivity">
+
+    <activity
+        android:id="@+id/introActivity"
+        android:name="com.example.fitcal.IntroActivity"
+        android:label="activity_intro"
+        tools:layout="@layout/activity_intro" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.fitcal.ui.menu.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/checkCalorieActivity2"
+        android:name="com.example.fitcal.ui.checkcalori.CheckCalorieActivity"
+        android:label="CheckCalorieActivity" />
+    <activity
+        android:id="@+id/bmiActivity"
+        android:name="com.example.fitcal.ui.bmi.BmiActivity"
+        android:label="activity_bmi"
+        tools:layout="@layout/activity_bmi" />
+</navigation>
