@@ -8,6 +8,10 @@
         "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "com.example.fitcal.app-merged_res-47:/layout_activity_calorie_result.xml.flat",
+        "source": "com.example.fitcal.app-main-49:/layout/activity_calorie_result.xml"
+    },
+    {
         "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\drawable_ic_baseline_email_24.xml.flat",
         "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\drawable\\ic_baseline_email_24.xml"
     },
@@ -112,16 +116,16 @@
         "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\drawable\\heading_2.xml"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/layout_activity_bmi.xml.flat",
-        "source": "com.example.fitcal.app-main-49:/layout/activity_bmi.xml"
-    },
-    {
         "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\drawable_image_login.webp.flat",
         "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\drawable\\image_login.webp"
+    },
+    {
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\layout_activity_calorie_result.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\layout\\activity_calorie_result.xml"
     },
     {
         "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\drawable_ic_add_photo.xml.flat",
@@ -136,12 +140,12 @@
         "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\navigation\\nav_main.xml"
     },
     {
-        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\layout_activity_welcome.xml.flat",
-        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\layout\\activity_welcome.xml"
-    },
-    {
         "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\layout_activity_bmi.xml.flat",
         "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\layout\\activity_bmi.xml"
+    },
+    {
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\layout_activity_welcome.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\layout\\activity_welcome.xml"
     },
     {
         "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\layout_activity_result.xml.flat",

@@ -8,8 +8,12 @@
         "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.fitcal.app-mergeDebugResources-46:/layout/activity_bmi.xml",
-        "source": "com.example.fitcal.app-main-49:/layout/activity_bmi.xml"
+        "merged": "com.example.fitcal.app-mergeDebugResources-46:/layout/activity_calorie_result.xml",
+        "source": "com.example.fitcal.app-main-49:/layout/activity_calorie_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-mergeDebugResources-46:\\layout\\activity_calorie_result.xml",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\layout\\activity_calorie_result.xml"
     },
     {
         "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-mergeDebugResources-46:\\layout\\activity_result.xml",

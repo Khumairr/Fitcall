@@ -26,12 +26,10 @@ class BmiActivity : AppCompatActivity() {
             insets
         }
 
-        // Initialize views
         weightEditText = findViewById(R.id.weightEditText)
         heightEditText = findViewById(R.id.heightEditText)
         calculateButton = findViewById(R.id.calculateButton)
 
-        // Set up calculate button click listener
         calculateButton.setOnClickListener {
             calculateBmi()
         }
@@ -52,7 +50,6 @@ class BmiActivity : AppCompatActivity() {
             }
             displayBmiResult(bmi, bmiCategory, advice)
         } else {
-            // Handle invalid input if necessary
         }
     }
 

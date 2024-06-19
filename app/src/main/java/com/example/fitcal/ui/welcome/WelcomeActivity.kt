@@ -8,7 +8,6 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.fitcal.R
 import com.example.fitcal.databinding.ActivityWelcomeBinding
 import com.example.fitcal.ui.login.LoginActivity
 import com.example.fitcal.ui.menu.MainActivity
@@ -22,7 +21,6 @@ class WelcomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 
-        // Inflate the layout using view binding
         binding = ActivityWelcomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -32,11 +30,9 @@ class WelcomeActivity : AppCompatActivity() {
             insets
         }
 
-        // Initialize SharedPreferences
         sharedPreferences = getSharedPreferences("user_prefs", Context.MODE_PRIVATE)
         checkLoginStatus()
 
-        // Set click listeners for login and signup buttons
         binding.loginButton.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)

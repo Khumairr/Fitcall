@@ -11,7 +11,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.lifecycleScope
-import com.example.fitcal.R
 import com.example.fitcal.data.model.LoginRequest
 import com.example.fitcal.data.remote.RetrofitClient
 import com.example.fitcal.databinding.ActivityLoginBinding
@@ -36,7 +35,6 @@ class LoginActivity : AppCompatActivity() {
             insets
         }
 
-        // Initialize SharedPreferences
         sharedPreferences = getSharedPreferences("user_prefs", Context.MODE_PRIVATE)
 
         binding.loginButton.setOnClickListener {

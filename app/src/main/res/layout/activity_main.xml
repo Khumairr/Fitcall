@@ -15,9 +15,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:background="@drawable/heading"
-
-            >
+            android:background="@drawable/heading">
 
             <TextView
                 android:id="@+id/textView3"
@@ -53,9 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@drawable/heading"
-            android:layout_marginTop="32dp"
-
-            >
+            android:layout_marginTop="32dp">
 
             <TextView
                 android:id="@+id/tv_btn_1"
@@ -85,9 +81,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@drawable/heading"
-            android:layout_marginTop="12dp"
-
-            >
+            android:layout_marginTop="12dp">
 
             <TextView
                 android:id="@+id/tv_btn_2"
@@ -117,9 +111,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@drawable/heading"
-            android:layout_marginTop="12dp"
-
-            >
+            android:layout_marginTop="12dp">
 
             <TextView
                 android:id="@+id/tv_btn_3"
@@ -150,9 +142,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@drawable/heading"
-            android:layout_marginTop="12dp"
-
-            >
+            android:layout_marginTop="12dp">
 
             <TextView
                 android:id="@+id/tv_btn_4"

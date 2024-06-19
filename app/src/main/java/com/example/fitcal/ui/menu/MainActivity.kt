@@ -18,5 +18,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, BmiActivity::class.java)
             startActivity(intent)
         }
+
+        val checkCalorieMenuItem = findViewById<ConstraintLayout>(R.id.menu_item_check_calorie)
+        checkCalorieMenuItem.setOnClickListener {
+            val intent = Intent(this, CheckCalorieActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

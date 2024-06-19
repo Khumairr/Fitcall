@@ -4,7 +4,9 @@ package com.example.fitcal.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,43 +23,38 @@ public final class ActivityCheckCalorieBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ConstraintLayout constraintLayout;
+  public final ImageView btnAddPhoto;
 
   @NonNull
-  public final ImageView icBtn2;
+  public final Button btnCamera;
+
+  @NonNull
+  public final Button btnCheckCalorie2;
+
+  @NonNull
+  public final Button btnGallery;
 
   @NonNull
   public final ImageView imageView;
 
   @NonNull
+  public final ProgressBar progressBar;
+
+  @NonNull
   public final TextView textView2;
 
-  @NonNull
-  public final TextView tvBtn1;
-
-  @NonNull
-  public final TextView tvBtnCamera;
-
-  @NonNull
-  public final TextView tvBtnCheckCal;
-
-  @NonNull
-  public final TextView tvBtnGallery;
-
   private ActivityCheckCalorieBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout constraintLayout, @NonNull ImageView icBtn2,
-      @NonNull ImageView imageView, @NonNull TextView textView2, @NonNull TextView tvBtn1,
-      @NonNull TextView tvBtnCamera, @NonNull TextView tvBtnCheckCal,
-      @NonNull TextView tvBtnGallery) {
+      @NonNull ImageView btnAddPhoto, @NonNull Button btnCamera, @NonNull Button btnCheckCalorie2,
+      @NonNull Button btnGallery, @NonNull ImageView imageView, @NonNull ProgressBar progressBar,
+      @NonNull TextView textView2) {
     this.rootView = rootView;
-    this.constraintLayout = constraintLayout;
-    this.icBtn2 = icBtn2;
+    this.btnAddPhoto = btnAddPhoto;
+    this.btnCamera = btnCamera;
+    this.btnCheckCalorie2 = btnCheckCalorie2;
+    this.btnGallery = btnGallery;
     this.imageView = imageView;
+    this.progressBar = progressBar;
     this.textView2 = textView2;
-    this.tvBtn1 = tvBtn1;
-    this.tvBtnCamera = tvBtnCamera;
-    this.tvBtnCheckCal = tvBtnCheckCal;
-    this.tvBtnGallery = tvBtnGallery;
   }
 
   @Override
@@ -87,15 +84,27 @@ public final class ActivityCheckCalorieBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.constraintLayout;
-      ConstraintLayout constraintLayout = ViewBindings.findChildViewById(rootView, id);
-      if (constraintLayout == null) {
+      id = R.id.btn_add_photo;
+      ImageView btnAddPhoto = ViewBindings.findChildViewById(rootView, id);
+      if (btnAddPhoto == null) {
         break missingId;
       }
 
-      id = R.id.ic_btn_2;
-      ImageView icBtn2 = ViewBindings.findChildViewById(rootView, id);
-      if (icBtn2 == null) {
+      id = R.id.btn_camera;
+      Button btnCamera = ViewBindings.findChildViewById(rootView, id);
+      if (btnCamera == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_check_calorie2;
+      Button btnCheckCalorie2 = ViewBindings.findChildViewById(rootView, id);
+      if (btnCheckCalorie2 == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_gallery;
+      Button btnGallery = ViewBindings.findChildViewById(rootView, id);
+      if (btnGallery == null) {
         break missingId;
       }
 
@@ -105,38 +114,20 @@ public final class ActivityCheckCalorieBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.progressBar;
+      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
+        break missingId;
+      }
+
       id = R.id.textView2;
       TextView textView2 = ViewBindings.findChildViewById(rootView, id);
       if (textView2 == null) {
         break missingId;
       }
 
-      id = R.id.tv_btn_1;
-      TextView tvBtn1 = ViewBindings.findChildViewById(rootView, id);
-      if (tvBtn1 == null) {
-        break missingId;
-      }
-
-      id = R.id.tv_btn_camera;
-      TextView tvBtnCamera = ViewBindings.findChildViewById(rootView, id);
-      if (tvBtnCamera == null) {
-        break missingId;
-      }
-
-      id = R.id.tv_btn_checkCal;
-      TextView tvBtnCheckCal = ViewBindings.findChildViewById(rootView, id);
-      if (tvBtnCheckCal == null) {
-        break missingId;
-      }
-
-      id = R.id.tv_btn_gallery;
-      TextView tvBtnGallery = ViewBindings.findChildViewById(rootView, id);
-      if (tvBtnGallery == null) {
-        break missingId;
-      }
-
-      return new ActivityCheckCalorieBinding((ConstraintLayout) rootView, constraintLayout, icBtn2,
-          imageView, textView2, tvBtn1, tvBtnCamera, tvBtnCheckCal, tvBtnGallery);
+      return new ActivityCheckCalorieBinding((ConstraintLayout) rootView, btnAddPhoto, btnCamera,
+          btnCheckCalorie2, btnGallery, imageView, progressBar, textView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
