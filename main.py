@@ -47,7 +47,6 @@ def mse(y_true, y_pred):
     return tf.reduce_mean(tf.square(y_true - y_pred))
 
 # Model 1 details
-model_url1 = 'https://storage.googleapis.com/mlgc-submission-gcc-27/model_deteksi_makanan_5c_v3_88_37_86_68.h5'
 model_path1 = 'model/model_deteksi_makanan_5c_v3_88_37_86_68.h5'
 
 # Model 2 details
@@ -57,22 +56,6 @@ model_path2 = 'model/model.h5'
 os.makedirs(os.path.dirname(model_path1), exist_ok=True)
 os.makedirs(os.path.dirname(model_path2), exist_ok=True)
 
-# Function to download model if it does not exist locally
-def download_model(model_url, model_path):
-    if not os.path.exists(model_path):
-        logging.info(f"Downloading model from {model_url}...")
-        try:
-            response = requests.get(model_url)
-            response.raise_for_status()  # Check if the request was successful
-            with open(model_path, 'wb') as f:
-                f.write(response.content)
-            logging.info("Model downloaded.")
-        except requests.exceptions.RequestException as e:
-            logging.error(f"Error downloading the model: {e}")
-            raise
-
-# Download the model 1
-download_model(model_url1, model_path1)
 
 # Load the trained models
 model1 = load_model(model_path1, custom_objects=custom_objects)
@@ -271,4 +254,4 @@ def get_user(user_id):
         return jsonify({'message': str(e)}), 400
 
 if __name__ == '__main__':
-    app.run(debug=True)
+   app.run(debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 8080)))
