@@ -1,118 +1,158 @@
 [
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.fitcal.app-main-49:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.fitcal.app-main-49:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.fitcal.app-main-49:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\drawable_ic_baseline_email_24.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\drawable\\ic_baseline_email_24.xml"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.fitcal.app-main-49:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.fitcal.app-main-49:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/layout_activity_result.xml.flat",
-        "source": "com.example.fitcal.app-main-49:/layout/activity_result.xml"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/layout_activity_main.xml.flat",
-        "source": "com.example.fitcal.app-main-49:/layout/activity_main.xml"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\layout_activity_check_calorie.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\layout\\activity_check_calorie.xml"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/layout_activity_intro.xml.flat",
-        "source": "com.example.fitcal.app-main-49:/layout/activity_intro.xml"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\drawable_ic_baseline_lock_24.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\drawable\\ic_baseline_lock_24.xml"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/drawable_ic_add_photo.xml.flat",
-        "source": "com.example.fitcal.app-main-49:/drawable/ic_add_photo.xml"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\font_dm_sans.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\font\\dm_sans.xml"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/drawable_heading.xml.flat",
-        "source": "com.example.fitcal.app-main-49:/drawable/heading.xml"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/drawable_ic_right_arrow.xml.flat",
-        "source": "com.example.fitcal.app-main-49:/drawable/ic_right_arrow.xml"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\layout\\activity_register.xml"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/drawable_ic_left_arrow.xml.flat",
-        "source": "com.example.fitcal.app-main-49:/drawable/ic_left_arrow.xml"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\drawable_image_welcome.webp.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\drawable\\image_welcome.webp"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/drawable_heading_2.xml.flat",
-        "source": "com.example.fitcal.app-main-49:/drawable/heading_2.xml"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/xml_backup_rules.xml.flat",
-        "source": "com.example.fitcal.app-main-49:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.fitcal.app-main-49:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.fitcal.app-main-49:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\font_dm_sans_bold.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\font\\dm_sans_bold.xml"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.fitcal.app-main-49:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\drawable_image_signup.webp.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\drawable\\image_signup.webp"
+    },
+    {
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\layout_activity_intro.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\layout\\activity_intro.xml"
+    },
+    {
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\drawable_ic_left_arrow.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\drawable\\ic_left_arrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\drawable_heading.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\drawable\\heading.xml"
+    },
+    {
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\drawable_heading_2.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\drawable\\heading_2.xml"
     },
     {
         "merged": "com.example.fitcal.app-merged_res-47:/layout_activity_bmi.xml.flat",
         "source": "com.example.fitcal.app-main-49:/layout/activity_bmi.xml"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/font_dm_sans_bold.xml.flat",
-        "source": "com.example.fitcal.app-main-49:/font/dm_sans_bold.xml"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.fitcal.app-main-49:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\drawable_image_login.webp.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\drawable\\image_login.webp"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.fitcal.app-main-49:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\drawable_ic_add_photo.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\drawable\\ic_add_photo.xml"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/layout_activity_check_calorie.xml.flat",
-        "source": "com.example.fitcal.app-main-49:/layout/activity_check_calorie.xml"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.fitcal.app-main-49:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\navigation_nav_main.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\navigation\\nav_main.xml"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/font_dm_sans.xml.flat",
-        "source": "com.example.fitcal.app-main-49:/font/dm_sans.xml"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\layout_activity_welcome.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\layout\\activity_welcome.xml"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.fitcal.app-main-49:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\layout_activity_bmi.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\layout\\activity_bmi.xml"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.fitcal.app-main-49:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\layout_activity_result.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\layout\\activity_result.xml"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.fitcal.app-main-49:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\drawable_ic_right_arrow.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\drawable\\ic_right_arrow.xml"
     },
     {
-        "merged": "com.example.fitcal.app-merged_res-47:/navigation_nav_main.xml.flat",
-        "source": "com.example.fitcal.app-main-49:/navigation/nav_main.xml"
-    },
-    {
-        "merged": "com.example.fitcal.app-merged_res-47:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.fitcal.app-main-49:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-merged_res-47:\\drawable_ic_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\jindan dubbay\\.gradle\\daemon\\8.2\\com.example.fitcal.app-main-49:\\drawable\\ic_baseline_person_24.xml"
     }
 ]

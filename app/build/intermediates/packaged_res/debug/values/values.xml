@@ -22,12 +22,11 @@
     <color name="main">#465A54</color>
     <color name="white">#FFFFFFFF</color>
     <string name="BMICheck_head">BMI adalah indikator pengukuran yang digunakan untuk menentukan kategori berat badan ideal atau tidak. Melalui hasil perhitungan BMI, Anda akan mengetahui kategori berat badan, yaitu kurus, ideal, berlebihan, atau bahkan obesitas.S</string>
-    <string name="BMI_menu">Kalkulator BMI</string>
     <string name="CheckCal_head">Upload atau foto makanan yang ingin di cek</string>
     <string name="advice_normal">Pertahankan berat badan</string>
     <string name="advice_obesity">Perlu olahraga</string>
     <string name="advice_overweight">Perlu olahraga</string>
-    <string name="advice_underweight">Kadar BMI Anda: %.2f , menunjukan berat badan Anda dalam kategori Kurus, kekurangan berat badan untuk orang dewasa dengan tinggi badan Anda/n Menjaga berat badan yang sehat dapat mengurangi risiko penyakit kronis yang terkait dengan kelebihan berat badan dan obesitas</string>
+    <string name="advice_underweight">Kadar BMI Anda %.2f, menunjukan berat badan Anda dalam kategori Kurus, kekurangan berat badan untuk orang dewasa dengan tinggi badan Anda/n Menjaga berat badan yang sehat dapat mengurangi risiko penyakit kronis yang terkait dengan kelebihan berat badan dan obesitas</string>
     <string name="app_name">FitCal</string>
     <string name="bmi_result">%.2f</string>
     <string name="btn_hitung">Hitung</string>
@@ -35,9 +34,13 @@
     <string name="checkCal_btn_gallery">Gallery</string>
     <string name="checkCal_btn_kamera">Camera</string>
     <string name="cm">Cm</string>
+    <string name="email">Email</string>
     <string name="height_edit_text">Masukan Tinggi</string>
     <string name="invalid_input">Invalid input. Please enter valid numbers.</string>
     <string name="kg">Kg</string>
+    <string name="login">Masuk</string>
+    <string name="message_login_page"/>
+    <string name="message_welcome_page"/>
     <string name="normal_weight">Normal weight</string>
     <string name="obesity">Obesity</string>
     <string name="overweight">Overweight</string>
@@ -47,7 +50,12 @@
     <string name="p1_btn_4">Kalkulator BMI</string>
     <string name="p1_greeting">Selamat Datang di FitCal</string>
     <string name="p1_greeting_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est et excepturi porro quod? A dolorem est modi nam necessitatibus quae temporibus voluptatem. Consectetur facere laborum neque nihil nostrum possimus vel?</string>
+    <string name="password">Password</string>
+    <string name="register">Daftar</string>
     <string name="result_header">Kadar BMI Anda</string>
+    <string name="title_login_page"/>
+    <string name="title_signup_page"/>
+    <string name="title_welcome_page"/>
     <string name="underweight">Kurus, kekurangan berat badan</string>
     <string name="weight_edit_text">Masukan Berat</string>
     <style name="Base.Theme.FitCal" parent="Theme.Material3.DayNight.NoActionBar">

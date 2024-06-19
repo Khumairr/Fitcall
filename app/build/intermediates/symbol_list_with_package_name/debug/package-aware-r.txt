@@ -3055,6 +3055,9 @@ drawable heading
 drawable heading_2
 drawable ic_add_photo
 drawable ic_arrow_back_black_24
+drawable ic_baseline_email_24
+drawable ic_baseline_lock_24
+drawable ic_baseline_person_24
 drawable ic_call_answer
 drawable ic_call_answer_low
 drawable ic_call_answer_video
@@ -3076,6 +3079,9 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_right_arrow
 drawable ic_search_black_24
+drawable image_login
+drawable image_signup
+drawable image_welcome
 drawable indeterminate_static
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3308,6 +3314,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id descTextView
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -3338,6 +3345,9 @@ id edge
 id edit_query
 id edit_text_id
 id elastic
+id emailEditText
+id emailEditTextLayout
+id emailTextView
 id embed
 id end
 id endToStart
@@ -3372,6 +3382,10 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
+id guideline2
+id guidelineHorizontal
+id guidelineHorizontal2
+id guidelineVertical
 id header_title
 id height
 id heightEditText
@@ -3415,7 +3429,9 @@ id line3
 id linear
 id listMode
 id list_item
+id loadingProgressBar
 id locale
+id loginButton
 id ltr
 id m3_side_sheet
 id main
@@ -3448,6 +3464,7 @@ id matrix
 id menu_item_bmi_calculator
 id menu_item_check_calorie
 id message
+id messageTextView
 id middle
 id mini
 id month_grid
@@ -3528,6 +3545,9 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id passwordEditText
+id passwordEditTextLayout
+id passwordTextView
 id password_toggle
 id path
 id pathRelative
@@ -3580,6 +3600,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signupButton
 id sin
 id skipCollapsed
 id skipped
@@ -3650,6 +3671,7 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id titleTextView
 id title_template
 id toggle
 id top
@@ -3816,8 +3838,11 @@ layout abc_tooltip
 layout activity_bmi
 layout activity_check_calorie
 layout activity_intro
+layout activity_login
 layout activity_main
+layout activity_register
 layout activity_result
+layout activity_welcome
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3902,7 +3927,6 @@ mipmap ic_launcher_round
 navigation nav_main
 plurals mtrl_badge_content_description
 string BMICheck_head
-string BMI_menu
 string CheckCal_head
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -3961,6 +3985,7 @@ string checkCal_btn_gallery
 string checkCal_btn_kamera
 string clear_text_end_icon_content_description
 string cm
+string email
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -3972,6 +3997,7 @@ string icon_content_description
 string invalid_input
 string item_view_role_description
 string kg
+string login
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -4010,6 +4036,8 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string message_login_page
+string message_welcome_page
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
 string mtrl_checkbox_button_icon_path_group_name
@@ -4083,11 +4111,13 @@ string p1_btn_3
 string p1_btn_4
 string p1_greeting
 string p1_greeting_2
+string password
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string register
 string result_header
 string search_menu_title
 string searchbar_scrolling_view_behavior
@@ -4096,6 +4126,9 @@ string searchview_navigation_content_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string title_login_page
+string title_signup_page
+string title_welcome_page
 string underweight
 string weight_edit_text
 style AlertDialog_AppCompat

@@ -8,6 +8,8 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="34" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <permission
         android:name="com.example.fitcal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -28,19 +30,25 @@
         android:testOnly="true"
         android:theme="@style/Theme.FitCal" >
         <activity
+            android:name="com.example.fitcal.ui.register.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.fitcal.ui.login.LoginActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.fitcal.ui.bmi.ResultActivity"
             android:exported="false" />
         <activity
             android:name="com.example.fitcal.ui.bmi.BmiActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.fitcal.ui.checkcalori.CheckCalorieActivity"
-            android:exported="false" />
-        <activity
             android:name="com.example.fitcal.IntroActivity"
             android:exported="false" />
         <activity
             android:name="com.example.fitcal.ui.menu.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.fitcal.ui.welcome.WelcomeActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
