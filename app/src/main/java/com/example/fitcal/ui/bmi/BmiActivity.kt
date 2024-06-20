@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -39,18 +40,20 @@ class BmiActivity : AppCompatActivity() {
         val weight = weightEditText.text.toString().toDoubleOrNull()
         val height = heightEditText.text.toString().toDoubleOrNull()
 
-        if (weight != null && height != null) {
-            val heightInMeters = height / 100
-            val bmi = weight / (heightInMeters * heightInMeters)
-            val (bmiCategory, advice) = when {
-                bmi < 18.5 -> getString(R.string.underweight) to getString(R.string.advice_underweight)
-                bmi < 24.9 -> getString(R.string.normal_weight) to getString(R.string.advice_normal)
-                bmi < 29.9 -> getString(R.string.overweight) to getString(R.string.advice_overweight)
-                else -> getString(R.string.obesity) to getString(R.string.advice_obesity)
-            }
-            displayBmiResult(bmi, bmiCategory, advice)
-        } else {
+        if (weight == null || height == null) {
+            Toast.makeText(this, "Tolong isi berat badan dan tinggi badan terlebih dahulu", Toast.LENGTH_SHORT).show()
+            return
         }
+
+        val heightInMeters = height / 100
+        val bmi = weight / (heightInMeters * heightInMeters)
+        val (bmiCategory, advice) = when {
+            bmi < 18.5 -> getString(R.string.underweight) to getString(R.string.advice_underweight)
+            bmi < 24.9 -> getString(R.string.normal_weight) to getString(R.string.advice_normal)
+            bmi < 29.9 -> getString(R.string.overweight) to getString(R.string.advice_overweight)
+            else -> getString(R.string.obesity) to getString(R.string.advice_obesity)
+        }
+        displayBmiResult(bmi, bmiCategory, advice)
     }
 
     private fun displayBmiResult(bmi: Double, bmiCategory: String, advice: String) {

@@ -3038,6 +3038,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable background_card
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3070,6 +3071,7 @@ drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_left_arrow
+drawable ic_logout
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -3079,6 +3081,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_right_arrow
 drawable ic_search_black_24
+drawable image_burn
 drawable image_login
 drawable image_signup
 drawable image_welcome
@@ -3232,6 +3235,7 @@ id actions
 id activity_chooser_view_content
 id add
 id adviceTextView
+id ageEditText
 id alertTitle
 id aligned
 id all
@@ -3258,6 +3262,7 @@ id blocking
 id bmiActivity
 id bmiCategoryTextView
 id bmiResultTextView
+id bodyTempEditText
 id bottom
 id bounce
 id bounceBoth
@@ -3267,6 +3272,7 @@ id btn_add_photo
 id btn_camera
 id btn_check_calorie2
 id btn_gallery
+id burnButton
 id buttonPanel
 id cache_measures
 id calculate
@@ -3342,6 +3348,7 @@ id dragRight
 id dragStart
 id dragUp
 id dropdown_menu
+id durationEditText
 id easeIn
 id easeInOut
 id easeOut
@@ -3362,6 +3369,7 @@ id escape
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fab_logout
 id fade
 id fill
 id fill_horizontal
@@ -3379,6 +3387,7 @@ id forever
 id fragment_container_view_tag
 id frost
 id fullscreen_header
+id genderEditText
 id ghost_view
 id ghost_view_holder
 id gone
@@ -3392,6 +3401,7 @@ id guidelineHorizontal
 id guidelineHorizontal2
 id guidelineVertical
 id header_title
+id heartRateEditText
 id height
 id heightEditText
 id hide_ime_id
@@ -3401,7 +3411,6 @@ id homeAsUp
 id honorRequest
 id horizontal_only
 id ic_btn_1
-id ic_btn_2
 id ic_btn_3
 id ic_btn_4
 id icon
@@ -3432,6 +3441,7 @@ id legacy
 id line1
 id line3
 id linear
+id linearLayout
 id listMode
 id list_item
 id loadingProgressBar
@@ -3467,6 +3477,7 @@ id material_timepicker_view
 id material_value_index
 id matrix
 id menu_item_bmi_calculator
+id menu_item_burn
 id menu_item_check_calorie
 id message
 id messageTextView
@@ -3572,6 +3583,7 @@ id recommendation
 id recommendation_card
 id rectangles
 id report_drawn
+id resultTextView
 id result_image
 id reverseSawtooth
 id right
@@ -3699,7 +3711,6 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tv_btn_1
-id tv_btn_2
 id tv_btn_3
 id tv_btn_4
 id unchecked
@@ -3707,6 +3718,8 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id userIdEditText
+id userIdTextView
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3843,6 +3856,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_bmi
+layout activity_burn
+layout activity_burn_result
 layout activity_calorie_result
 layout activity_check_calorie
 layout activity_intro
@@ -3978,6 +3993,8 @@ string bottomsheet_action_expand_halfway
 string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
 string btn_hitung
+string burn_desc
+string burn_heading
 string call_notification_answer_action
 string call_notification_answer_video_action
 string call_notification_decline_action
@@ -3991,6 +4008,7 @@ string character_counter_pattern
 string checkCal_btn_check
 string checkCal_btn_gallery
 string checkCal_btn_kamera
+string check_heading
 string clear_text_end_icon_content_description
 string cm
 string email

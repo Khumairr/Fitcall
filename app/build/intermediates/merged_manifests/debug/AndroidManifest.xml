@@ -37,6 +37,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.FitCal" >
         <activity
+            android:name="com.example.fitcal.ui.burn.BurnResultActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.fitcal.ui.burn.BurnActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.fitcal.ui.setting.SettingActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.fitcal.ui.checkcalori.CalorieResultActivity"
             android:exported="false" />
         <activity

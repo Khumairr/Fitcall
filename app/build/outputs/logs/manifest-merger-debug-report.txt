@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:2:1-63:12
-INJECTED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:2:1-63:12
-INJECTED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:2:1-63:12
-INJECTED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:2:1-63:12
+ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:2:1-72:12
 MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\jindan dubbay\.gradle\caches\transforms-3\d64262d30dfd028fefb0db007e75e64f\transformed\viewbinding-8.2.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] C:\Users\jindan dubbay\.gradle\caches\transforms-3\d3cd4373bcb8a8c80234303d98b35a1d\transformed\navigation-ui-ktx-2.4.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.4.2] C:\Users\jindan dubbay\.gradle\caches\transforms-3\3010e48a23763c7dc98e55059b0ad450\transformed\navigation-ui-2.4.2\AndroidManifest.xml:17:1-24:12
@@ -95,8 +95,8 @@ ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:12:5-81
 	android:name
 		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:12:22-78
 application
-ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:14:5-61:19
-INJECTED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:14:5-61:19
+ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:14:5-70:19
+INJECTED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:14:5-70:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\jindan dubbay\.gradle\caches\transforms-3\337e34332cf4bec5cb62ffb73e0c3b27\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\jindan dubbay\.gradle\caches\transforms-3\337e34332cf4bec5cb62ffb73e0c3b27\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\jindan dubbay\.gradle\caches\transforms-3\a1c5e08825da8b3508fd7a457a086ebc\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -137,76 +137,94 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ji
 		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:22:9-44
 	android:dataExtractionRules
 		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:16:9-65
-activity#com.example.fitcal.ui.checkcalori.CalorieResultActivity
+activity#com.example.fitcal.ui.burn.BurnResultActivity
 ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:24:9-26:40
 	android:exported
 		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:25:13-65
-activity#com.example.fitcal.ui.checkcalori.CheckCalorieActivity
+		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:25:13-55
+activity#com.example.fitcal.ui.burn.BurnActivity
 ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:27:9-29:40
 	android:exported
 		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:28:13-64
-activity#com.example.fitcal.ui.register.RegisterActivity
+		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:28:13-49
+activity#com.example.fitcal.ui.setting.SettingActivity
 ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:30:9-32:40
 	android:exported
 		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:31:13-57
-activity#com.example.fitcal.ui.login.LoginActivity
+		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:31:13-55
+activity#com.example.fitcal.ui.checkcalori.CalorieResultActivity
 ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:33:9-35:40
 	android:exported
 		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:34:13-51
-activity#com.example.fitcal.ui.bmi.ResultActivity
+		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:34:13-65
+activity#com.example.fitcal.ui.checkcalori.CheckCalorieActivity
 ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:36:9-38:40
 	android:exported
 		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:38:13-37
 	android:name
-		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:37:13-50
-activity#com.example.fitcal.ui.bmi.BmiActivity
+		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:37:13-64
+activity#com.example.fitcal.ui.register.RegisterActivity
 ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:39:9-41:40
 	android:exported
 		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:41:13-37
 	android:name
-		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:40:13-47
-activity#com.example.fitcal.IntroActivity
+		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:40:13-57
+activity#com.example.fitcal.ui.login.LoginActivity
 ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:42:9-44:40
 	android:exported
 		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:44:13-37
 	android:name
-		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:43:13-42
-activity#com.example.fitcal.ui.menu.MainActivity
+		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:43:13-51
+activity#com.example.fitcal.ui.bmi.ResultActivity
 ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:45:9-47:40
 	android:exported
 		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:46:13-49
-activity#com.example.fitcal.ui.welcome.WelcomeActivity
-ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:48:9-56:20
+		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:46:13-50
+activity#com.example.fitcal.ui.bmi.BmiActivity
+ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:48:9-50:40
 	android:exported
-		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:50:13-36
+		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:50:13-37
 	android:name
-		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:49:13-55
+		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:49:13-47
+activity#com.example.fitcal.IntroActivity
+ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:51:9-53:40
+	android:exported
+		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:52:13-42
+activity#com.example.fitcal.ui.menu.MainActivity
+ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:54:9-56:40
+	android:exported
+		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:55:13-49
+activity#com.example.fitcal.ui.welcome.WelcomeActivity
+ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:57:9-65:20
+	android:exported
+		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:59:13-36
+	android:name
+		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:58:13-55
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:51:13-55:29
+ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:60:13-64:29
 action#android.intent.action.MAIN
-ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:52:17-69
+ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:61:17-69
 	android:name
-		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:52:25-66
+		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:61:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:54:17-77
+ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:63:17-77
 	android:name
-		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:54:27-74
+		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:63:27-74
 meta-data#preloaded_fonts
-ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:58:9-60:57
+ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:67:9-69:57
 	android:resource
-		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:60:13-54
+		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:69:13-54
 	android:name
-		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:59:13-43
+		ADDED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml:68:13-43
 uses-sdk
 INJECTED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Kuliah\bangkit\Fitcall\app\src\main\AndroidManifest.xml

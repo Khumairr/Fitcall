@@ -1,5 +1,7 @@
 package com.example.fitcal.data.remote
 
+import com.example.fitcal.data.model.BurnCalorieRequest
+import com.example.fitcal.data.model.BurnCalorieResponse
 import com.example.fitcal.data.model.CalorieCheckResponse
 import com.example.fitcal.data.model.LoginRequest
 import com.example.fitcal.data.model.LoginResponse
@@ -20,7 +22,13 @@ interface ApiService {
     @POST("register")
     fun register(@Body request: RegisterRequest): Call<RegisterResponse>
 
+    @POST("logout")
+    fun logout(): Call<Void>
+
     @Multipart
     @POST("predict")
     fun checkCalories(@Part image: MultipartBody.Part): Call<CalorieCheckResponse>
+
+    @POST("burn_kalori")
+    fun burnCalories(@Body request: BurnCalorieRequest): Call<BurnCalorieResponse>
 }

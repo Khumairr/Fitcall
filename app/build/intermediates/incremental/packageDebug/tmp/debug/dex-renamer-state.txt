@@ -1,6 +1,7 @@
-#Thu Jun 20 00:07:56 WIB 2024
+#Thu Jun 20 20:33:36 WIB 2024
 base.0=D\:\\Kuliah\\bangkit\\Fitcall\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\Kuliah\\bangkit\\Fitcall\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.10=D\:\\Kuliah\\bangkit\\Fitcall\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
 base.2=D\:\\Kuliah\\bangkit\\Fitcall\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
 base.3=D\:\\Kuliah\\bangkit\\Fitcall\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
 base.4=D\:\\Kuliah\\bangkit\\Fitcall\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
@@ -11,6 +12,7 @@ base.8=D\:\\Kuliah\\bangkit\\Fitcall\\app\\build\\intermediates\\dex\\debug\\mer
 base.9=D\:\\Kuliah\\bangkit\\Fitcall\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
+path.10=7/classes.dex
 path.2=10/classes.dex
 path.3=3/classes.dex
 path.4=8/classes.dex
@@ -21,6 +23,7 @@ path.8=6/classes.dex
 path.9=classes2.dex
 renamed.0=classes.dex
 renamed.1=classes2.dex
+renamed.10=classes11.dex
 renamed.2=classes3.dex
 renamed.3=classes4.dex
 renamed.4=classes5.dex

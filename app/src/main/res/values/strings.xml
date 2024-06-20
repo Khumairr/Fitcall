@@ -6,9 +6,9 @@
     <string name="p1_btn_2">Hitung kebutuhan kalori harian</string>
     <string name="p1_btn_3">Hitung kalori yang terbakar</string>
     <string name="p1_btn_4">Kalkulator BMI</string>
-    <!--Check calorie activity-->
+    <!--Check Calorie Activity-->
+    <string name="check_heading">Cek Kalori Makanan</string>
     <string name="CheckCal_head">Upload atau foto makanan yang ingin di cek</string>
-    <string name="BMICheck_head">BMI adalah indikator pengukuran yang digunakan untuk menentukan kategori berat badan ideal atau tidak. Melalui hasil perhitungan BMI, Anda akan mengetahui kategori berat badan, yaitu kurus, ideal, berlebihan, atau bahkan obesitas.S</string>
     <string name="checkCal_btn_kamera">Camera</string>
     <string name="checkCal_btn_gallery">Gallery</string>
     <string name="checkCal_btn_check">Check Calorie</string>
@@ -18,7 +18,8 @@
     <string name="title_rec">Rekomendasi</string>
     <string name="value_cal">Calories</string>
     <string name="value_rec">Recommendation</string>
-    <!--BMI activity-->
+    <!--BMI Activity-->
+    <string name="BMICheck_head">BMI adalah indikator pengukuran yang digunakan untuk menentukan kategori berat badan ideal atau tidak. Melalui hasil perhitungan BMI, Anda akan mengetahui kategori berat badan, yaitu kurus, ideal, berlebihan, atau bahkan obesitas.</string>
     <string name="weight_edit_text">Masukan Berat</string>
     <string name="height_edit_text">Masukan Tinggi</string>
     <string name="kg">Kg</string>
@@ -30,11 +31,11 @@
     <string name="normal_weight">Normal weight</string>
     <string name="overweight">Overweight</string>
     <string name="obesity">Obesity</string>
-    <string name="advice_underweight">Kadar BMI Anda %.2f, menunjukan berat badan Anda dalam kategori Kurus, kekurangan berat badan untuk orang dewasa dengan tinggi badan Anda/n Menjaga berat badan yang sehat dapat mengurangi risiko penyakit kronis yang terkait dengan kelebihan berat badan dan obesitas</string>
-    <string name="advice_normal">Pertahankan berat badan</string>
-    <string name="advice_overweight">Perlu olahraga</string>
+    <string name="advice_underweight">Dari kadar BMI Anda, menunjukan berat badan Anda dalam kategori Kurus, kekurangan berat badan untuk orang dewasa dengan tinggi badan Anda. Menjaga berat badan yang sehat dapat mengurangi risiko penyakit kronis yang terkait dengan kelebihan berat badan dan obesitas</string>
+    <string name="advice_normal">Dari kadar BMI Anda, menunjukan berat badan Anda dalam kategori Normal untuk orang dewasa dengan tinggi badan Anda. Menjaga berat badan yang sehat dapat mengurangi risiko penyakit kronis yang terkait dengan kelebihan berat badan dan obesitas</string>
+    <string name="advice_overweight">Dari kadar BMI Anda, menunjukan berat badan Anda dalam kategori Gemuk, kelebihan berat badan untuk orang dewasa dengan tinggi badan Anda. Menjaga berat badan yang sehat dapat mengurangi risiko penyakit kronis yang terkait dengan kelebihan berat badan dan obesitas</string>
     <string name="advice_obesity">Perlu olahraga</string>
-    <!--Login and Register activity-->
+    <!--Login and Register Activity-->
     <string name="title_login_page">Sudah siap menjaga kesehatan tubuh?</string>
     <string name="title_signup_page">Lengkapi data dirimu di bawah ini ya</string>
     <string name="message_login_page">Masukan dulu datamu ya</string>
@@ -45,5 +46,8 @@
     <!--Welcome Activity-->
     <string name="title_welcome_page">Selamat datang di FitCal!</string>
     <string name="message_welcome_page">Cek kebeutuhan kalori Anda dan jaga kesehatan tubuh</string>
+    <!--Burn Activity-->
+    <string name="burn_heading">Hitung Kalori yang Terbakar</string>
+    <string name="burn_desc">Fitur Bakar Kalori membantu Anda memahami seberapa banyak energi yang mereka keluarkan, yang penting untuk manajemen berat badan dan peningkatan kebugaran secara keseluruhan.</string>
 
 </resources>

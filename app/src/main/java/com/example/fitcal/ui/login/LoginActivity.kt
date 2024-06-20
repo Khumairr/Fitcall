@@ -51,7 +51,6 @@ class LoginActivity : AppCompatActivity() {
                         binding.loadingProgressBar.visibility = View.GONE
                         if (response.isSuccessful) {
                             val loginResponse = response.body()
-                            // Save login status to SharedPreferences
                             with(sharedPreferences.edit()) {
                                 putBoolean("is_logged_in", true)
                                 apply()

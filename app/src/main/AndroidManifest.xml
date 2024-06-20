@@ -22,6 +22,12 @@
         android:theme="@style/Theme.FitCal"
         tools:targetApi="31">
         <activity
+            android:name=".ui.burn.BurnResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.burn.BurnActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.setting.SettingActivity"
             android:exported="false" />
         <activity

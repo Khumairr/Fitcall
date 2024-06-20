@@ -26,7 +26,9 @@ import okhttp3.RequestBody
 import java.io.File
 import android.Manifest
 import android.content.pm.PackageManager
+import android.net.Uri
 import androidx.core.app.ActivityCompat
+import java.io.FileOutputStream
 
 class CheckCalorieActivity : AppCompatActivity() {
     private lateinit var imageView: ImageView
@@ -132,10 +134,21 @@ class CheckCalorieActivity : AppCompatActivity() {
 
                 if (response.isSuccessful) {
                     val calorieResponse = response.body()
+                    val drawable = imageView.drawable as BitmapDrawable
+                    val bitmap = drawable.bitmap
+
+                    // Simpan bitmap sebagai file di penyimpanan sementara
+                    val file = File(cacheDir, "result_image.png")
+                    val stream = FileOutputStream(file)
+                    bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream)
+                    stream.flush()
+                    stream.close()
+
                     val intent = Intent(this@CheckCalorieActivity, CalorieResultActivity::class.java).apply {
                         putExtra("prediction", calorieResponse?.prediction ?: "Unknown")
                         putExtra("calories", calorieResponse?.calories ?: 0)
                         putExtra("recommendation", calorieResponse?.recommendation ?: "No recommendation")
+                        putExtra("imageUri", Uri.fromFile(file))
                     }
                     startActivity(intent)
                 } else {
