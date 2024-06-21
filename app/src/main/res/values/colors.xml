@@ -3,4 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="main">#465A54</color>
+    <color name="bg_main">#0E0E35</color>
+    <color name="bg2_main">#FCFFF3</color>
+
 </resources>

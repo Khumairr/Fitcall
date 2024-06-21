@@ -44,6 +44,9 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final ImageView imageView;
 
   @NonNull
+  public final ImageView imageView4;
+
+  @NonNull
   public final ProgressBar loadingProgressBar;
 
   @NonNull
@@ -71,10 +74,11 @@ public final class ActivityLoginBinding implements ViewBinding {
       @NonNull CustomEditText emailEditText, @NonNull TextInputLayout emailEditTextLayout,
       @NonNull TextView emailTextView, @NonNull Guideline guidelineHorizontal,
       @NonNull Guideline guidelineHorizontal2, @NonNull ImageView imageView,
-      @NonNull ProgressBar loadingProgressBar, @NonNull Button loginButton,
-      @NonNull ConstraintLayout main, @NonNull TextView messageTextView,
-      @NonNull CustomEditText passwordEditText, @NonNull TextInputLayout passwordEditTextLayout,
-      @NonNull TextView passwordTextView, @NonNull TextView titleTextView) {
+      @NonNull ImageView imageView4, @NonNull ProgressBar loadingProgressBar,
+      @NonNull Button loginButton, @NonNull ConstraintLayout main,
+      @NonNull TextView messageTextView, @NonNull CustomEditText passwordEditText,
+      @NonNull TextInputLayout passwordEditTextLayout, @NonNull TextView passwordTextView,
+      @NonNull TextView titleTextView) {
     this.rootView = rootView;
     this.emailEditText = emailEditText;
     this.emailEditTextLayout = emailEditTextLayout;
@@ -82,6 +86,7 @@ public final class ActivityLoginBinding implements ViewBinding {
     this.guidelineHorizontal = guidelineHorizontal;
     this.guidelineHorizontal2 = guidelineHorizontal2;
     this.imageView = imageView;
+    this.imageView4 = imageView4;
     this.loadingProgressBar = loadingProgressBar;
     this.loginButton = loginButton;
     this.main = main;
@@ -155,6 +160,12 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView4;
+      ImageView imageView4 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView4 == null) {
+        break missingId;
+      }
+
       id = R.id.loadingProgressBar;
       ProgressBar loadingProgressBar = ViewBindings.findChildViewById(rootView, id);
       if (loadingProgressBar == null) {
@@ -201,7 +212,7 @@ public final class ActivityLoginBinding implements ViewBinding {
 
       return new ActivityLoginBinding((ConstraintLayout) rootView, emailEditText,
           emailEditTextLayout, emailTextView, guidelineHorizontal, guidelineHorizontal2, imageView,
-          loadingProgressBar, loginButton, main, messageTextView, passwordEditText,
+          imageView4, loadingProgressBar, loginButton, main, messageTextView, passwordEditText,
           passwordEditTextLayout, passwordTextView, titleTextView);
     }
     String missingId = rootView.getResources().getResourceName(id);

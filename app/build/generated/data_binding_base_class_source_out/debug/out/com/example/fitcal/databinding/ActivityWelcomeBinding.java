@@ -26,6 +26,9 @@ public final class ActivityWelcomeBinding implements ViewBinding {
   public final TextView descTextView;
 
   @NonNull
+  public final TextView descTextView2;
+
+  @NonNull
   public final Guideline guidelineHorizontal;
 
   @NonNull
@@ -33,6 +36,9 @@ public final class ActivityWelcomeBinding implements ViewBinding {
 
   @NonNull
   public final ImageView imageView;
+
+  @NonNull
+  public final ImageView imageView4;
 
   @NonNull
   public final Button loginButton;
@@ -47,14 +53,17 @@ public final class ActivityWelcomeBinding implements ViewBinding {
   public final TextView titleTextView;
 
   private ActivityWelcomeBinding(@NonNull ConstraintLayout rootView, @NonNull TextView descTextView,
-      @NonNull Guideline guidelineHorizontal, @NonNull Guideline guidelineVertical,
-      @NonNull ImageView imageView, @NonNull Button loginButton, @NonNull ConstraintLayout main,
+      @NonNull TextView descTextView2, @NonNull Guideline guidelineHorizontal,
+      @NonNull Guideline guidelineVertical, @NonNull ImageView imageView,
+      @NonNull ImageView imageView4, @NonNull Button loginButton, @NonNull ConstraintLayout main,
       @NonNull Button signupButton, @NonNull TextView titleTextView) {
     this.rootView = rootView;
     this.descTextView = descTextView;
+    this.descTextView2 = descTextView2;
     this.guidelineHorizontal = guidelineHorizontal;
     this.guidelineVertical = guidelineVertical;
     this.imageView = imageView;
+    this.imageView4 = imageView4;
     this.loginButton = loginButton;
     this.main = main;
     this.signupButton = signupButton;
@@ -94,6 +103,12 @@ public final class ActivityWelcomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.descTextView2;
+      TextView descTextView2 = ViewBindings.findChildViewById(rootView, id);
+      if (descTextView2 == null) {
+        break missingId;
+      }
+
       id = R.id.guidelineHorizontal;
       Guideline guidelineHorizontal = ViewBindings.findChildViewById(rootView, id);
       if (guidelineHorizontal == null) {
@@ -109,6 +124,12 @@ public final class ActivityWelcomeBinding implements ViewBinding {
       id = R.id.imageView;
       ImageView imageView = ViewBindings.findChildViewById(rootView, id);
       if (imageView == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView4;
+      ImageView imageView4 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView4 == null) {
         break missingId;
       }
 
@@ -132,9 +153,9 @@ public final class ActivityWelcomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityWelcomeBinding((ConstraintLayout) rootView, descTextView,
-          guidelineHorizontal, guidelineVertical, imageView, loginButton, main, signupButton,
-          titleTextView);
+      return new ActivityWelcomeBinding((ConstraintLayout) rootView, descTextView, descTextView2,
+          guidelineHorizontal, guidelineVertical, imageView, imageView4, loginButton, main,
+          signupButton, titleTextView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -18,6 +18,8 @@
         <item>@font/dm_sans</item>
         <item>@font/dm_sans_bold</item>
     </array>
+    <color name="bg2_main">#FCFFF3</color>
+    <color name="bg_main">#0E0E35</color>
     <color name="black">#FF000000</color>
     <color name="main">#465A54</color>
     <color name="white">#FFFFFFFF</color>
@@ -42,8 +44,9 @@
     <string name="invalid_input">Invalid input. Please enter valid numbers.</string>
     <string name="kg">Kg</string>
     <string name="login">Masuk</string>
-    <string name="message_login_page">Masukan dulu datamu ya</string>
-    <string name="message_welcome_page">Cek kebeutuhan kalori Anda dan jaga kesehatan tubuh</string>
+    <string name="message_login_page">Silahkan masukan E-mail dan password anda</string>
+    <string name="message_welcome_page">Ayo cek dan jaga kebutuhan kalori Anda agar tubuh anda tetap fit dan sehat. </string>
+    <string name="message_welcome_page2">*Silahkan masuk jika anda sudah memiliki akun, dan daftar jika belum memiliki akun</string>
     <string name="normal_weight">Normal weight</string>
     <string name="obesity">Obesity</string>
     <string name="overweight">Overweight</string>
@@ -52,15 +55,15 @@
     <string name="p1_btn_3">Hitung kalori yang terbakar</string>
     <string name="p1_btn_4">Kalkulator BMI</string>
     <string name="p1_greeting">Selamat Datang di FitCal</string>
-    <string name="p1_greeting_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est et excepturi porro quod? A dolorem est modi nam necessitatibus quae temporibus voluptatem. Consectetur facere laborum neque nihil nostrum possimus vel?</string>
+    <string name="p1_greeting_2">FitCal adalah aplikasi inovatif yang dirancang untuk membantu Anda mengelola asupan kalori harian Anda dengan mudah. Dengan menggunakan teknologi canggih dan algoritma pembelajaran mesin, FitCal dapat mendeteksi gambar makanan dan memberikan informasi kalori yang akurat. Apakah tujuan Anda adalah menambah berat badan, menurunkannya, atau sekadar menjaga kesehatan, FitCal siap mendukung Anda. Dengan FitCal, mengatur asupan kalori menjadi lebih praktis dan efektif, membantu Anda mencapai tujuan berat badan dan meningkatkan kesejahteraan secara keseluruhan. Mari kita mulai perjalanan menuju gaya hidup sehat bersama FitCal!</string>
     <string name="password">Password</string>
     <string name="register">Daftar</string>
     <string name="result_check">Prediksi</string>
     <string name="result_header">Kadar BMI Anda</string>
     <string name="title_cal">Kalori</string>
-    <string name="title_login_page">Sudah siap menjaga kesehatan tubuh?</string>
+    <string name="title_login_page">Ayo login dan jaga agar tubuh kita tetap sehat</string>
     <string name="title_rec">Rekomendasi</string>
-    <string name="title_signup_page">Lengkapi data dirimu di bawah ini ya</string>
+    <string name="title_signup_page">Lengkapi data diri anda di bawah ini untuk pembuatan akun</string>
     <string name="title_welcome_page">Selamat datang di FitCal!</string>
     <string name="underweight">Kurus, kekurangan berat badan</string>
     <string name="value_cal">Calories</string>

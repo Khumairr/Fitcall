@@ -41,9 +41,10 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="347dp"
             android:layout_height="wrap_content"
-            android:text="@string/CheckCal_head"/>
+            android:textAlignment="center"
+            android:text="@string/CheckCal_head" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
